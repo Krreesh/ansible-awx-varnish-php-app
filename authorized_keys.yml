@@ -6,4 +6,4 @@
       authorized_key:
         user: admin
         state: present
-        key: "{{ lookup('file', 'templates/varnish-php.pub') }}"
+        key: "{{ lookup('file', 'templates/ec2-key.pub') }}"
